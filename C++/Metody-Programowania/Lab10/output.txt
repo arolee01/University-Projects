@@ -1,0 +1,37 @@
+Poziom: 0, Zysk: 0, Waga: 0, Wybrane: 0 0 0 0 
+Poziom: 1, Zysk: 40, Waga: 2, Wybrane: 1 0 0 0 
+--- ZNALEZIONO LEPSZY ZYSK: 40 ---
+Poziom: 2, Zysk: 70, Waga: 7, Wybrane: 1 1 0 0 
+--- ZNALEZIONO LEPSZY ZYSK: 70 ---
+Poziom: 3, Zysk: 120, Waga: 17, Wybrane: 1 1 1 0 
+Poziom: 4, Zysk: 130, Waga: 22, Wybrane: 1 1 1 1 
+Poziom: 4, Zysk: 120, Waga: 17, Wybrane: 1 1 1 0 
+Poziom: 3, Zysk: 70, Waga: 7, Wybrane: 1 1 0 0 
+Poziom: 4, Zysk: 80, Waga: 12, Wybrane: 1 1 0 1 
+--- ZNALEZIONO LEPSZY ZYSK: 80 ---
+Poziom: 4, Zysk: 70, Waga: 7, Wybrane: 1 1 0 0 
+Poziom: 2, Zysk: 40, Waga: 2, Wybrane: 1 0 0 0 
+Poziom: 3, Zysk: 90, Waga: 12, Wybrane: 1 0 1 0 
+--- ZNALEZIONO LEPSZY ZYSK: 90 ---
+Poziom: 4, Zysk: 100, Waga: 17, Wybrane: 1 0 1 1 
+Poziom: 4, Zysk: 90, Waga: 12, Wybrane: 1 0 1 0 
+Poziom: 3, Zysk: 40, Waga: 2, Wybrane: 1 0 0 0 
+Poziom: 4, Zysk: 50, Waga: 7, Wybrane: 1 0 0 1 
+Poziom: 4, Zysk: 40, Waga: 2, Wybrane: 1 0 0 0 
+Poziom: 1, Zysk: 0, Waga: 0, Wybrane: 0 0 0 0 
+Poziom: 2, Zysk: 30, Waga: 5, Wybrane: 0 1 0 0 
+Poziom: 3, Zysk: 80, Waga: 15, Wybrane: 0 1 1 0 
+Poziom: 4, Zysk: 90, Waga: 20, Wybrane: 0 1 1 1 
+Poziom: 4, Zysk: 80, Waga: 15, Wybrane: 0 1 1 0 
+Poziom: 3, Zysk: 30, Waga: 5, Wybrane: 0 1 0 0 
+Poziom: 4, Zysk: 40, Waga: 10, Wybrane: 0 1 0 1 
+Poziom: 4, Zysk: 30, Waga: 5, Wybrane: 0 1 0 0 
+Poziom: 2, Zysk: 0, Waga: 0, Wybrane: 0 0 0 0 
+Poziom: 3, Zysk: 50, Waga: 10, Wybrane: 0 0 1 0 
+Poziom: 4, Zysk: 60, Waga: 15, Wybrane: 0 0 1 1 
+Poziom: 4, Zysk: 50, Waga: 10, Wybrane: 0 0 1 0 
+Poziom: 3, Zysk: 0, Waga: 0, Wybrane: 0 0 0 0 
+Poziom: 4, Zysk: 10, Waga: 5, Wybrane: 0 0 0 1 
+Poziom: 4, Zysk: 0, Waga: 0, Wybrane: 0 0 0 0 
+Najlepszy zysk: 90
+Wybrane przedmioty: 1 3 
