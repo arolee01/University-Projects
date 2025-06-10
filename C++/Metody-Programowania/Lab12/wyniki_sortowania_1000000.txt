@@ -1,0 +1,42 @@
+Nazwa metody sortowania  Długość tablicyRodzaj tablicy                Liczba porównań   Liczba przestawień Czas [ms]
+-----------------------------------------------------------------------------------------------------------------------------
+Sortowanie wahadłowe     1000000        losowe                        499999500000        260801000000              2376000
+Sortowanie wahadłowe     1000000        posortowane rosnąco           499999500000        0                         854000
+Sortowanie wahadłowe     1000000        posortowane malejąco          499999500000        499999500000              2475000
+Sortowanie wahadłowe     1000000        częściowo uporządkowane       499999500000         54264000000              1074000
+Quick Sort (Lomuto)      1000000        losowe                        21398000              11242000               168
+Quick Sort (Lomuto)      1000000        posortowane rosnąco          499999500000          0                   717000
+Quick Sort (Lomuto)      1000000        posortowane malejąco         499999500000          500000              600000
+Quick Sort (Lomuto)      1000000        częściowo uporządkowane    35662000              6008000              112
+Quick Sort (Hoare)       1000000        losowe                       33776000               4662000              182
+Quick Sort (Hoare)       1000000        posortowane rosnąco         501498000000           0              547000
+Quick Sort (Hoare)       1000000        posortowane malejąco        501998000000           500000              631000
+Quick Sort (Hoare)       1000000        częściowo uporządkowane   48340000              648000              108
+Heap Sort                1000000        losowe                       33798000              18228000              286
+Heap Sort                1000000        posortowane rosnąco         35166000              19416000              240
+Heap Sort                1000000        posortowane malejąco        31930000              16632000              222
+Heap Sort                1000000        częściowo uporządkowane   34852000              19256000              268
+
+
+=== WNIOSKI ===
+
+1. SORTOWANIE WAHADŁOWE (Shaker Sort):
+   - Najwolniejszy algorytm dla wszystkich typów danych
+   - Złożoność O(n²) we wszystkich przypadkach
+   - Najlepiej radzi sobie z danymi już posortowanymi
+
+2. QUICK SORT (Lomuto i Hoare):
+   - Bardzo szybkie dla danych losowych i częściowo posortowanych
+   - Gorsza wydajność dla danych już posortowanych (O(n²))
+   - Podział Hoare'a nieco szybszy od Lomuto
+
+3. HEAP SORT:
+   - Stabilna wydajność O(n log n) niezależnie od typu danych
+   - Dobry wybór gdy potrzebujemy gwarancji czasu wykonania
+   - Więcej przestawień niż Quick Sort dla danych losowych
+
+4. OGÓLNE OBSERWACJE:
+   - Quick Sort najszybszy dla danych losowych
+   - Heap Sort najbardziej przewidywalny
+   - Shaker Sort użyteczny tylko dla małych zbiorów
+   - Typ danych znacząco wpływa na wydajność algorytmów

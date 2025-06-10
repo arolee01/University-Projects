@@ -1,0 +1,20 @@
+Nazwa metody sortowania  Długość tablicyRodzaj tablicy                Liczba porównań   Liczba przestawień Czas [ms]      
+-----------------------------------------------------------------------------------------------------------------------------
+Sortowanie wahadłowe    1000           losowe                        499500              260801              2.376          
+Sortowanie wahadłowe    1000           posortowane rosnąco          499500              0                   0.854          
+Sortowanie wahadłowe    1000           posortowane malejąco         499500              499500              2.475          
+Sortowanie wahadłowe    1000           częściowo uporządkowane    499500              54264               1.074          
+Quick Sort (Lomuto)      1000           losowe                        10699               5621                0.084          
+Quick Sort (Lomuto)      1000           posortowane rosnąco          499500              0                   0.717          
+Quick Sort (Lomuto)      1000           posortowane malejąco         499500              500                 0.600          
+Quick Sort (Lomuto)      1000           częściowo uporządkowane    17831               3004                0.056          
+Quick Sort (Hoare)       1000           losowe                        16888               2331                0.091          
+Quick Sort (Hoare)       1000           posortowane rosnąco          501498              0                   0.547          
+Quick Sort (Hoare)       1000           posortowane malejąco         501998              500                 0.631          
+Quick Sort (Hoare)       1000           częściowo uporządkowane    24170               324                 0.054          
+Heap Sort                1000           losowe                        16899               9114                0.143          
+Heap Sort                1000           posortowane rosnąco          17583               9708                0.120          
+Heap Sort                1000           posortowane malejąco         15965               8316                0.111          
+Heap Sort                1000           częściowo uporządkowane    17426               9628                0.134          
+
+Wnioski w 1.000.000

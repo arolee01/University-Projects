@@ -1,0 +1,20 @@
+Nazwa metody sortowania  Długość tablicyRodzaj tablicy                Liczba porównań   Liczba przestawień Czas [ms]      
+-----------------------------------------------------------------------------------------------------------------------------
+Sortowanie wahadłowe    100            losowe                        4950                2556                0.028          
+Sortowanie wahadłowe    100            posortowane rosnąco          4950                0                   0.010          
+Sortowanie wahadłowe    100            posortowane malejąco         4950                4950                0.027          
+Sortowanie wahadłowe    100            częściowo uporządkowane    4950                474                 0.012          
+Quick Sort (Lomuto)      100            losowe                        643                 279                 0.006          
+Quick Sort (Lomuto)      100            posortowane rosnąco          4950                0                   0.008          
+Quick Sort (Lomuto)      100            posortowane malejąco         4950                50                  0.009          
+Quick Sort (Lomuto)      100            częściowo uporządkowane    959                 142                 0.004          
+Quick Sort (Hoare)       100            losowe                        938                 168                 0.007          
+Quick Sort (Hoare)       100            posortowane rosnąco          5148                0                   0.008          
+Quick Sort (Hoare)       100            posortowane malejąco         5198                50                  0.008          
+Quick Sort (Hoare)       100            częściowo uporządkowane    2069                20                  0.005          
+Heap Sort                100            losowe                        1029                579                 0.010          
+Heap Sort                100            posortowane rosnąco          1081                640                 0.009          
+Heap Sort                100            posortowane malejąco         944                 516                 0.008          
+Heap Sort                100            częściowo uporządkowane    1073                633                 0.009          
+
+Wnioski w 1.000.000
